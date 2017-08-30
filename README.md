@@ -31,7 +31,7 @@ The requirements for the project do not specify a particular language and leave 
 Implementation Notes & Assumptions
 As not all of the numbered items in the list above are strictly program requirements, I will focus on breaking each of the requirements into more manageable sub-requirements/tasks. Therefore, only requirements 1 and 2 will be present with supplementary information.
 
-1. Use the GitHub API to go through all public and private GitHub members of a GitHub organization. If the name for the member is not filled in on their profile information page, send them an email directing them to github.com to rectify the issue.
+	1. Use the GitHub API to go through all public and private GitHub members of a GitHub organization. If the name for the member is not 	filled in on their profile information page, send them an email directing them to github.com to rectify the issue.
 	i. Login with a username and password in order to obtain an authorization key. This key will allow us to access information which          determines whether or not we can view concealed (private) members and groups.
 		a. There will be an available option to login with a test account or user supplied credentials. This option will be prompted for at        the beginning of the program.
 			i. The input will be case sensitive
@@ -54,13 +54,13 @@ As not all of the numbered items in the list above are strictly program requirem
 	vi. All directives have been completed, the option will be given to perform actions again, logoff and try again, or to terminate             program operation
 		a. It may not be necessary to do this, program operation can be simply terminated when operation is complete
 		
-2. The list of usernames with nameless profiles into an AWS S3 Bucket
+	2. The list of usernames with nameless profiles into an AWS S3 Bucket
 	i. The list which was previously prepared in 1.iv.b will be loaded into an AWS S3 Bucket
 
 Development Notes
 As the program is developed, notes will be made here chronicling changes which will be made to the development notes listed in the previous section.
 
-1. Use the GitHub API to go through all public and private GitHub members of a GitHub organization. If the name for the member is not filled in on their profile information page, send them an email directing them to github.com to rectify the issue.
+	1. Use the GitHub API to go through all public and private GitHub members of a GitHub organization. If the name for the member is not filled in on their profile information page, send them an email directing them to github.com to rectify the issue.
 	i. Login with a username and password in order to obtain an authorization key. This key will allow us to access information which determines whether or not we can view concealed (private) members and groups.
 		a. There will be an available option to login with a test account or user supplied credentials. This option will be prompted for at        the beginning of the program. Due to limited time and limited explanations of input methods, the program will instead read login        information from a JSON file which will be in the local directory as the executing program.
 			i. The input will be case sensitive
@@ -84,5 +84,5 @@ As the program is developed, notes will be made here chronicling changes which w
 	vi. All directives have been completed, the option will be given to perform actions again, logoff and try again, or to terminate program operation
 		a. It may not be necessary to do this, program operation can be simply terminated when operation is complete
 		
-2. The list of usernames with nameless profiles into an AWS S3 Bucket
+	2. The list of usernames with nameless profiles into an AWS S3 Bucket
 	i. The list which was previously prepared in 1.iv.b will be loaded into an AWS S3 Bucket
